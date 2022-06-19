@@ -1,0 +1,68 @@
+body{
+	background-color: RGB(73,18,246);
+	font-family:Ariel;
+	color: white;
+	
+}
+a{
+		color:white;
+		text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+input[type='button']{
+	border: 0px;
+	border-radius: 25px;
+	color:white;
+	font-weight: bold;
+	padding:10px 27px;
+	background: linear-gradient(to right, RGB(234, 158, 61) , RGB(238, 125, 56));
+}
+.container{
+	margin-left: 20px;
+	
+}	
+
+
+
+.header  {
+	display: flex;
+	align-items: center;
+	
+}
+.sec-1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 50px;	
+}
+.sec-2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 50px;
+	
+}
+.sec-w{
+	flex: 0 0 300px;
+	color:white;
+}
+.sec-w2{
+	flex: 0 0 300px;
+	color:white;
+}
+.sec-w3{
+	flex: 0 0 300px;
+	color:white;
+}
+.pic-1{
+	flex: 0 1 600px;
+}
+.pic-2{
+	flex: 0 1 400px;
+}
+
+.pic-3{
+	flex: 0 1 400px;	
+}	
